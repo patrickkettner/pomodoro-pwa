@@ -12,10 +12,10 @@
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="application-name" content="Pomodoro 🍅">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="Pomodoro 🍅">
   <link rel="icon" sizes="144x144" href="assets/images/pomodoro_144.png">
-  <!-- <link rel="apple-touch-icon" href="https://whiteswift.github.io/pomodoro/assets/images/touch/pomodoro_192.png"> -->
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
   <meta name="theme-color" content="#cf3145">
   <meta property="og:title" content="Pomodoro 🍅">
   <meta property="og:type" content="website">
@@ -80,6 +80,10 @@
     //       console.log('endpoint:', sub.endpoint);
     //   });
     // });
+  } else if ('applicationCache' in window) {
+    var iframe = document.createElement('iframe');
+    iframe.src = '/appCache.html';
+    document.body.appendChild(iframe);
   }
   </script>
   <script async src='scripts/main.js'></script>

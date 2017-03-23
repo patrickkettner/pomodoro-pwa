@@ -1,0 +1,19 @@
+CACHE MANIFEST
+
+#1.0
+
+/
+/index.html
+
+styles/main.css
+
+assets/images/pomodoro_256.png
+assets/images/volume_on.svg
+assets/images/volume_muted.svg
+
+scripts/main.js
+
+assets/fonts/gotham-medium.woff
+assets/fonts/Apercu.woff
+
+assets/media/alarm.mp3

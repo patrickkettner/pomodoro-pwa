@@ -10,6 +10,13 @@ body {
     -ms-user-select: none;
     user-select: none
 }
+
+iframe {
+  border: 0;
+  height: 0;
+  width: 0;
+}
+
 @font-face {
   font-family: 'Gotham-medium';
   src: url('../assets/fonts/gotham-medium.woff') format('woff')
@@ -53,10 +60,7 @@ h1 {
     padding-top: 6vw;
     transition: 0.5s ease;
 }
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
 #clockdiv {
     color: #fff;
     display: inline-block;
@@ -140,9 +144,6 @@ h1 {
 @keyframes fadeOut {
     from { opacity: 1; }
       to { opacity: 0; }
-<<<<<<< Updated upstream
-}
-=======
 }
 
 /*.tomato-active {
@@ -171,4 +172,4 @@ h1 {
     color: #fff;
     background-color: transparent
 }
->>>>>>> Stashed changes
+
